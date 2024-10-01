@@ -1,0 +1,35 @@
+body {
+    background-color: #141414;
+    color: white;
+}
+.card {
+    background-color: #333;
+    border: none;
+}
+.card-header {
+    background-color: #e50914;
+    color: white;
+}
+.btn-netflix-red {
+    background-color: #e50914;
+    color: white;
+}
+.btn-netflix-red:hover {
+    background-color: #f40612;
+}
+.form-control, .form-select, .form-control:focus, .form-select:focus, .form-control:hover, .form-select:hover {
+    background-color: #555;
+    color: white;
+    border: 1px solid #444;
+}
+.form-label {
+    color: #999;
+}
+.btn-secondary {
+    background-color: #333;
+    border: none;
+    color: white;
+}
+.btn-secondary:hover {
+    background-color: #555;
+}

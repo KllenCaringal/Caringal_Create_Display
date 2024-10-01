@@ -1,0 +1,41 @@
+body {
+    background-color: #141414; /* Netflix dark background */
+    color: #fff; /* Netflix white text */
+}
+h2 {
+    font-weight: bold;
+    color: #e50914; /* Netflix red for title */
+}
+#createUserBtn {
+    background-color: #e50914; /* Netflix red for buttons */
+    border: none;
+}
+#createUserBtn:hover {
+    background-color: #b00710; /* Darker red on hover */
+}
+.table {
+    color: #fff; /* White text in table */
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #1f1f1f; /* Darker background for rows */
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #141414; /* Default background */
+}
+.btn-primary {
+    background-color: #e50914; /* Red for buttons */
+    border: none;
+}
+.btn-danger {
+    background-color: #b00710; /* Darker red for danger buttons */
+    border: none;
+}
+.btn-primary:hover, .btn-danger:hover {
+    background-color: #721c24; /* Dark red on hover */
+}
+thead {
+    background-color: #e50914; /* Netflix red for table header */
+}
+table.dataTable tbody td {
+    font-weight: 400;
+}
